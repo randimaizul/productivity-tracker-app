@@ -15,6 +15,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    // themes: ["dracula","lemonade"],
+    // themes: ["lemonade"],
+    themes: ["aqua"],
+    // themes: ["black"],
+    // themes: ["sunset"],
+    // themes: ["pastel"],
+    // themes: ["halloween"],
+  },
 };
 export default config;
